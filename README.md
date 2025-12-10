@@ -2,16 +2,12 @@
 
 This project explores the modeling of Autism Spectrum Disorder (ASD) severity using functional connectivity features from the ABIDE neuroimaging dataset. Rather than treating ASD as a binary condition, the goal is to predict continuous severity scores through regression, interpret feature importance, and link model behavior to known neurobiological networks.
 
----
-
 ## Project Overview
 - Works with high-dimensional resting-state fMRI connectome data  
 - Treats ASD severity as a regression task instead of binary classification  
 - Implements multiple feature selection methods to reduce dimensionality  
 - Evaluates classical ML models and compact deep learning architectures  
 - Uses interpretability tools (e.g., SHAP, gradient-based saliency) to validate neurobiological relevance  
-
----
 
 ## Methodology (Current Prototype)
 - Extraction of functional connectivity matrices (20,000+ features per subject)  
